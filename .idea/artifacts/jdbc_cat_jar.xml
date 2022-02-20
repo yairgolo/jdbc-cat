@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jdbc-cat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jdbc_cat_jar</output-path>
+    <root id="archive" name="jdbc-cat.jar">
+      <element id="module-output" name="jdbc-cat" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.27.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/lombok.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
