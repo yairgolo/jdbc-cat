@@ -20,7 +20,7 @@ public class JDBCUtil {
         return DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/cat-example?useSSL=false&serverTimezone=UTC",
                 "root",
-                "yairgolo10"
+                "password"
                 // password
         );
     }
